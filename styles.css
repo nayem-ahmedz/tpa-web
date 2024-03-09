@@ -111,6 +111,42 @@ article{
 .a3-box > button:hover{
     background-color: rgb(221, 192, 45); color: black;
 }
+/* Article 4 */
+.a4-box{
+    margin: 10px; border: 3px solid #dfddddee; border-radius: 5px; padding: 15px 25px; flex-basis: 260px;
+}
+.a4-box > img{
+    width: 100%; height: auto;
+}
+.a4-box h5{
+    font-size: 18px; margin: 5px;
+}
+.a4-box p{
+    margin: 5px;
+}
+/* Article 5 */
+#art-5 > p{
+    font-weight: bold; margin: 5px;
+}
+#art-5 > h3{
+    margin: 5px auto 25px; font-size: 26px;
+}
+#news-email{
+    margin-right: 30px; padding: 5px 10px; width: 220px; background-color: rgb(203, 198, 198); border-radius: 5px; border: none; box-shadow: 3px 3px black;
+}
+#news-btn{
+    padding: 5px 10px; background-color: rgb(179, 0, 179); border: none; border-radius: 5px; box-shadow: 3px 3px black; color: white;
+}
+/* Article 6 */
+.box6{
+    max-width: 550px; min-height: 310px; margin: 15px; padding: 20px; background-color: rgb(191, 191, 191); border-radius: 10px;
+}
+.ar6-b span{
+    display: block; font-weight: bold; font-size: 20px; margin-bottom: 10px;
+}
+.ar6-b > img{
+    width: 300px; height: auto; float: left; margin-right: 15px;
+}
 
 @media screen and (max-width: 1024px){
     header{
