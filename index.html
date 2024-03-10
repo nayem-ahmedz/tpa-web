@@ -8,6 +8,7 @@
         <meta name="keyword" content="project, time planner app, nayem ahmed">
         <link rel="icon" href="/assets/favicon.ico">
         <link rel="stylesheet" href="/styles.css">
+        <script src="https://kit.fontawesome.com/e54598ab59.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -24,8 +25,12 @@
             <main>
                 <p>Created to save time</p>
                 <h1>Time Planner App</h1>
-                <button class="main-btn">Google Play</button>
-                <button class="main-btn">App Store</button>
+                <button class="main-btn">
+                    <i class="fab fa-google-play"></i>
+                    Google Play</button>
+                <button class="main-btn">
+                    <i class="fab fa-apple" style="margin-right: 3px;"></i>
+                    App Store</button>
             </main>
             <article>
                 <div class="box l-box">
@@ -43,26 +48,32 @@
                 <h2 class="heading">Learn more about our Application</h2>
                 <p class="heading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam eligendi consectetur nemo nobis quia sequi</p>
                 <div class="a2-box">
+                    <i class="fas fa-laptop"></i>
                     <h3>Time Tracking</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorem voluptatibus.</p>
                 </div>
                 <div class="a2-box">
+                    <i class="fas fa-external-link-alt"></i>
                     <h3>Resource Planning</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorem voluptatibus.</p>
                 </div>
                 <div class="a2-box">
+                    <i class="fas fa-recycle"></i>
                     <h3>Inengration</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorem voluptatibus.</p>
                 </div>
                 <div class="a2-box">
+                    <i class="far fa-compass"></i>
                     <h3>Task Management</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorem voluptatibus.</p>
                 </div>
                 <div class="a2-box">
+                    <i class="fas fa-briefcase"></i>
                     <h3>Reportion</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorem voluptatibus.</p>
                 </div>
                 <div class="a2-box">
+                    <i class="far fa-bookmark"></i>
                     <h3>Inovicing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorem voluptatibus.</p>
                 </div>
@@ -139,11 +150,12 @@
                     <p id="desig">Marketing</p>
                 </div>
             </article>
+            <!--Subscribe Newsletter-->
             <article id="art-5" style="padding-top: 0;">
                 <p>Keep to date with our news letter</p>
                 <h3 class="heading">Subscribe to our News Letter</h3>
                 <input type="email" id="news-email" name="news-email" placeholder="Email Address">
-                <button type="button" id="news-btn">Subscribe</button>
+                <button type="button" class="news-btn">Subscribe</button>
             </article>
             <article id="art-6">
                 <div class="box6" style="overflow: auto;">
@@ -163,9 +175,28 @@
                     </p>
                 </div>
             </article>
+            <article id="art-7">
+                <div class="box7">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57894.400489550695!2d91.91993413911469!3d24.918438798225825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750552bc71c899d%3A0x804e438bcc32b390!2sMetropolitan%20University%20Sylhet!5e0!3m2!1sen!2sbd!4v1710083902690!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="box7 cFormBox">
+                    <h3 style="font-size: 32px; margin-top: 0px;">Contact Us</h3>
+                    <p style="text-align: justify; margin-bottom: 50px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, nostrum. Et possimus soluta amet, distinctio mollitia, praesentium doloremque laborum rem asperiores voluptates ipsa itaque dolores autem dignissimos commodi doloribus hic!
+                    </p>
+                    <form name="contact-form" class="cForm">
+                        <input type="email" id="email" name="email" placeholder="Your-email">
+                        <input type="name" id="name" name="name" placeholder="Your name">
+                        <input type="number" id="number" name="number" placeholder="Number">
+                        <textarea id="message" name="message" placeholder="How can we help you?"></textarea>
+                        <input type="submit" value="Submit" class="news-btn" style="display: block; margin: auto;" onclick="alert('You clicked me!');">
+                    </form>
+                </div>
+            </article>
         </section>
         <footer>
-            <h1></h1>
+            <p>All Right Reserved | TPA | March 2024</p>
+            <h3>Time Planner App</h3>
         </footer>
     </body>
 </html>
